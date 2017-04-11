@@ -66,7 +66,6 @@ export default {
       }
     },
     makeTodoItemDone(index) {
-      debugger;
       const doneItem = this.todoItems.splice(index, 1)[0];
       this.doneItems.unshift(doneItem);
     },
